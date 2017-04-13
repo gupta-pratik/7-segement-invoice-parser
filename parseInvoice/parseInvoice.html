@@ -1,0 +1,20 @@
+<p>Please upload the file you want to parse.</p>
+<div>
+  <input type="file" id="file" name="file"/>
+  <br><br>
+  <button ng-click="add()">upload</button> <br><br>
+
+    <span>Input File</span>
+     <textarea name="Input File" placeholder="Input File" id="" cols="30" rows="10" ng-model="data"></textarea>
+  
+ 
+  <button ng-click="res=get7segment(data)">
+  Parse
+  </button>
+
+    <span>Output File</span>
+  <textarea name="Input File" placeholder="Input File" id="" cols="30" rows="10" ng-model="res"></textarea>
+
+
+  
+</div>
